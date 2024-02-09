@@ -1,0 +1,6 @@
+SELECT bike_id,COUNT(*) AS total_usage
+FROM `bigquery-public-data.austin_bikeshare.bikeshare_trips` 
+GROUP BY bike_id
+ORDER BY total_usage DESC;
+
+## this is only the code to find the most used bike, i lost the other code.
